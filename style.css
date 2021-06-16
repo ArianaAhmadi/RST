@@ -14,11 +14,13 @@ h2 {
 
 i2 {
   color: black;
+  font-size: 50px
 }
 
 p {
   color: darkcyan;
   text-align: left;
+  font-size: 30px
 }
 
 .bg-image {
@@ -40,7 +42,7 @@ p {
 .content-wrapper{
   width: center;
   margin: 0% 0% 50% 0%;
-  height: 5cm
+  height: 7cm
 
 }
 
