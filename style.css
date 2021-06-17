@@ -11,7 +11,7 @@ h2 {
 }
 
 a {
-  color: black;
+  color: rgb(92,124,116);
   text-align:center;
   font-size: 50px;
 }
@@ -96,4 +96,10 @@ p2{
   color: rgb(95,55,51);
   text-align:center;
   font-size: 75px
+}
+
+form {
+  color: black;
+  text-align:center;
+  font-size: 50px
 }
