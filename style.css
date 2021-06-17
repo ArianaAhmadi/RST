@@ -25,12 +25,30 @@ p {
 
 .bg-image {
   //outline: 3px solid black;
-  //background-size: 100% 1000px;
-  padding: 20em;
-  background-image: url("https://i.insider.com/5a45428eb0bcd5ab188b7235?width=1136&format=jpeg");
+  background-size: 100% 1000px;
+  padding: 10em;
+  //background-image: url("https://i.insider.com/5a45428eb0bcd5ab188b7235?width=1136&format=jpeg");
+  border: 10px dotted #9a7d6f;
+  border-radius: 50px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 35%
+  float: center;
+  text-align: center;
+  //margin: 150px auto;
+  background-size: 35% 
+
+}
+//.img{
+  //float: center;
+  //width: 10px;
+  //height: 26px;
+  //padding: 0 20px 0 0;
+
+}
+
+.text{
+  text-align: left;
+  
 }
 
 *{
