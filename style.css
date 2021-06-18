@@ -11,29 +11,29 @@ h2 {
 }
 
 a {
-  color: rgb(92,124,116);
-  text-align:center;
+  color: #5c7c74;
+  text-align: center;
   font-size: 50px;
 }
 
 i2 {
   color: rgb(95,55,51);
-  text-align: left;
-  font-size: 50px
+  text-align: center;
+  font-size: 60px
   
 }
 
 p {
   color: rgb(95,55,51);
   text-align: left;
-  font-size: 50px
+  font-size: 60px
 }
 
 
 p2{
   text-align: center;
   color: black;
-  font-size: 20px
+  font-size: 25px
 }
 
 .bg-image {
@@ -48,11 +48,11 @@ p2{
   float: center;
   text-align: center;
   //margin: 150px auto;
-  background-size: 35% 
+  background-size: 35%;
 
 }
 
-//.img{
+.img{
   //float: center;
   //width: 10px;
   //height: 26px;
@@ -63,7 +63,7 @@ p2{
 .text{
   text-align: left;
   color: black;
-  font-size: 20px
+  font-size: 25px
   
 }
 
@@ -101,5 +101,19 @@ p2{
 form {
   color: black;
   text-align:center;
-  font-size: 50px
+  font-size: 60px
+}
+
+img.floatLeft {
+  float: left;
+  margin: 4px;
+  border: 10px dotted #9a7d6f;
+  width: 300px
+}
+
+img.floatRight {
+  float: right;
+  margin: 4px;
+  border: 10px dotted #9a7d6f;
+  width: 500px
 }
