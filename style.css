@@ -117,3 +117,22 @@ img.floatRight {
   border: 10px dotted #9a7d6f;
   width: 500px
 }
+
+img.floatCenter {
+  float: left;
+  margin: 4px;
+  border: 10px dotted #9a7d6f;
+  width: 500px
+}
+
+.radio1 {
+  color: #5c7c74;
+  font-size: 35px;
+  //float: left;
+}
+
+.checkbox1 {
+  color: #5c7c74;
+  font-size: 35px;
+  //float: left;
+}
