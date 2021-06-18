@@ -1,3 +1,11 @@
+:root {
+  --text-color: #000;
+}
+
+.bg-image p2 {
+  color: var(--text-color);
+}
+
 body{
   font-family:"Cormorant Garamond";
   color:rgb(65, 126, 218);
@@ -19,8 +27,7 @@ a {
 i2 {
   color: rgb(95,55,51);
   text-align: center;
-  font-size: 60px
-  
+  font-size: 60px 
 }
 
 p {
@@ -37,40 +44,26 @@ p2{
 }
 
 .bg-image {
-  //outline: 3px solid black;
   background-size: 100% 1000px;
   padding: 10em;
-  //background-image: url("https://i.insider.com/5a45428eb0bcd5ab188b7235?width=1136&format=jpeg");
   border: 10px dotted #9a7d6f;
   border-radius: 50px;
   background-repeat: no-repeat;
   background-position: center;
   float: center;
   text-align: center;
-  //margin: 150px auto;
   background-size: 35%;
-
 }
-
-.img{
-  //float: center;
-  //width: 10px;
-  //height: 26px;
-  //padding: 0 20px 0 0;
-
-//}
 
 .text{
   text-align: left;
   color: black;
   font-size: 25px
-  
 }
 
 *{
   padding: 0;
   margin: 0;
-
 }
 
 .content-wrapper{
@@ -114,7 +107,7 @@ img.floatLeft {
 img.floatRight {
   float: right;
   margin: 4px;
-  border: 10px dotted #9a7d6f;
+  border: 10px dotted #5c7c74;
   width: 500px
 }
 
@@ -135,4 +128,10 @@ img.floatCenter {
   color: #5c7c74;
   font-size: 35px;
   //float: left;
+}
+
+.here {
+    text-align: center;
+  color: #5c7c74;
+  font-size: 25px
 }
