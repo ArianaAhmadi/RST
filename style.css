@@ -101,7 +101,7 @@ img.floatLeft {
   float: left;
   margin: 4px;
   border: 10px dotted #9a7d6f;
-  width: 300px
+  width: 500px
 }
 
 img.floatRight {
@@ -116,6 +116,13 @@ img.floatCenter {
   margin: 4px;
   border: 10px dotted #9a7d6f;
   width: 500px
+}
+
+img.river {
+  float: left;
+  margin: 4px;
+  border: 10px dotted #9a7d6f;
+  width: 600px
 }
 
 .radio1 {
